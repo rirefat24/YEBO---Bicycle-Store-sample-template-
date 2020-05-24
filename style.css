@@ -1,0 +1,232 @@
+
+/* Header Area */
+.logo-area img {
+    display: none;
+}
+.main-menu-area {
+    position: absolute;
+    top: 5%;
+    left: 28%;
+}
+.main-menu-area ul li a {
+    color: #9291A1;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0 15px;
+}
+.main-menu-area ul li a:hover {
+    border-bottom: 2px dotted green;
+    border-radius: 20px;
+}
+.main-menu-area ul li .img {
+    border: none;
+}
+.main-menu-area ul li .img:hover {
+    border: none;
+}
+
+h5 {
+    margin: 20px 0;
+    color: #848789;
+}
+h6 {
+    color: #353738;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    line-height: 2em;
+    margin-top: 10px;
+}
+p {
+    color: #848789;
+    line-height: 2em;
+}
+.intro-area {
+    background-color: #F7F7F7;
+    padding: 75px 150px;;
+}
+.intro-area a img {
+    margin-bottom: 20px;
+}
+.img-1 {
+    position: relative;
+
+}
+.logo-1 {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 40%;
+    cursor: pointer;
+}
+
+.img-2 {
+    width: 100%;
+    margin-top: 28px;
+}
+.middle-img {
+    margin-top: 29.5px;
+}
+.triangle{
+    position: relative;
+}
+.triangle:before {
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 15px solid white;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    top: 28px;
+}
+.col-md-8,
+.col-md-4{
+    padding: 0;
+}
+hr {
+    width: 12%;
+}
+ p {
+    margin-bottom: 30px;
+    padding: 0 30px;
+    font-size: 13px;
+}
+#extra {
+    margin: 18px 0;
+}
+.total-text-area {
+    margin-top: 42px;
+}
+.text-area {
+    margin: 20px 0;
+}
+.middle-text-area {
+    margin-top: 40px;
+}
+
+.photo-gallery {
+    background: #282f35;
+    padding-bottom: 65px;
+}
+.photo-gallery img {
+    margin-bottom: 65px;
+}
+.photo-gallery a {    
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    padding: 12px 25px;
+    background-color: #282f35;
+}
+.photo-gallery a:hover {
+    color: #282f35;
+    background: white;
+} 
+
+
+.twit-area {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+}
+.twit-area a {
+    background-color: none;
+    font-size: 35px;
+    color: #54a0ff;
+    display: inline-block;
+}
+.twit-area a:hover {
+    transform: scale(1.5);
+    color: #2e86de;
+}
+
+.comment-area p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 80px;
+    margin-bottom: 0;
+}
+.comment-area span {
+    font-weight: normal;
+    color: #848789;
+    font-size: 14px;
+}
+
+input {
+    padding: 15px 15px;
+    margin-right:  5px;
+}
+.btn {
+    background-color: #64C29E;
+    border: 1px solid #64C29E;
+    border-radius: 2px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 8px 30px;
+    position: relative;
+    top: -2px;
+}
+.btn:hover {
+    background-color: white;
+    color: #64C29E;
+}
+.subscribe-area {
+    padding: 114px 0;
+}
+
+.footer-area{
+    background-color: #f7f7f7;
+    padding: 55px 0;
+}
+.footer-area h6 {
+    font-size: 13px;
+}
+.footer-area p {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+.social-media {
+    margin-top: 30px;
+}
+.social-media a {
+    font-size: 20px;
+    color: white;
+    padding: 0 20px;
+    margin: 5px 0;
+    display: inline-block;
+    transition: 0.5s;
+}
+.social-media a i {
+    height: 35px;
+    width: 37px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+.social-media a:hover {
+   transform: scale(1.5);
+}
+.footer-area .fa-twitter {
+    background-color: #5EAADE;
+}
+.fa-facebook-f {
+    background-color: #3B5998;
+}
+.fa-pinterest {
+    background-color: #CC2127;
+}
+.footer-area .col-2 {
+margin-top: 35px;
+}
+.main-logo-area {
+    margin-top: 28px;
+}
+
